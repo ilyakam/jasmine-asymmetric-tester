@@ -12,6 +12,7 @@ module.exports = function(config) {
     files: [
       'build/javascript/vendor.js',
       'node_modules/angular-mocks/angular-mocks.js',
+      'src/app.js',
       'src/**/*.js'
     ]
   });

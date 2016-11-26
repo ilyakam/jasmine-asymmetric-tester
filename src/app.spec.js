@@ -14,6 +14,19 @@ describe('jasmine-asymmetric-tester', function() {
     });
   });
 
+  describe('ngRoute', function() {
+    var ngRoute;
+
+    beforeEach(inject(function($route) {
+      ngRoute = $route;
+    }));
+
+    it('should be defined', function() {
+      expect(ngRoute)
+        .toBeDefined();
+    });
+  });
+
   describe('ui.router', function() {
     var uiRouter;
 

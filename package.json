@@ -8,6 +8,7 @@
     "angular": "^1.6.0-rc.2",
     "angular-foundation": "^0.8.0",
     "angular-mocks": "^1.6.0-rc.2",
+    "angular-route": "^1.6.0-rc.2",
     "angular-ui-router": "^0.3.2",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
@@ -24,6 +25,7 @@
     "tester",
     "angular",
     "angular-foundation",
+    "angular-route",
     "angular-ui-router"
   ],
   "scripts": {

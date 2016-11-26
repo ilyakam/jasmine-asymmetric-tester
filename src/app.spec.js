@@ -13,4 +13,17 @@ describe('jasmine-asymmetric-tester', function() {
         .toBeDefined();
     });
   });
+
+  describe('ui.router', function() {
+    var uiRouter;
+
+    beforeEach(inject(function($state) {
+      uiRouter = $state;
+    }));
+
+    it('should be defined', function() {
+      expect(uiRouter)
+        .toBeDefined();
+    });
+  });
 });

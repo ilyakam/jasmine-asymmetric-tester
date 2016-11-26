@@ -53,7 +53,8 @@ gulp.task('test', function(done) {
 gulp.task('vendor', function() {
   var scripts = [
     'node_modules/angular/angular.js',
-    'node_modules/angular-foundation/mm-foundation-tpls.js'
+    'node_modules/angular-foundation/mm-foundation-tpls.js',
+    'node_modules/angular-ui-router/release/angular-ui-router.js'
   ];
 
   return gulp

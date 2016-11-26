@@ -3,13 +3,12 @@
   "description": "Sample application to showcase the Jasmine asymmetric tester",
   "license": "MIT",
   "name": "jasmine-asymmetric-tester",
-  "scripts": {"test": "gulp test"},
   "version": "0.0.1",
-
   "dependencies": {
     "angular": "^1.6.0-rc.2",
     "angular-foundation": "^0.8.0",
     "angular-mocks": "^1.6.0-rc.2",
+    "angular-ui-router": "^0.3.2",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
@@ -19,12 +18,16 @@
     "karma-phantomjs-launcher": "^1.0.2",
     "run-sequence": "^1.2.2"
   },
-
   "keywords": [
     "jasmine",
     "asymmetric",
     "tester",
     "angular",
-    "angular-foundation"
-  ]
+    "angular-foundation",
+    "angular-ui-router"
+  ],
+  "scripts": {
+    "postinstall": "gulp build",
+    "test": "gulp test"
+  }
 }
